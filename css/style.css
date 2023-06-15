@@ -1,0 +1,495 @@
+/*INICIO ESTILIZAÇÃO GERAL*/ 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+body{
+    height: 100%
+}
+.center{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+.clear{
+    clear: both;
+}
+
+/*FIM ESTILIZAÇÃO GERAL*/ 
+
+/*INICIO ESTILIZAÇÃO HEADER*/ 
+.mobile-menu{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 90%;
+    max-height: 680px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/images/capa.png);
+    padding-top: 25px;
+    
+}
+.logo img{
+    width: 120px;
+}
+nav.desktop-menu{
+    width: 100%;
+    text-align: right;
+    margin-top: 1.5%;  
+}
+nav.desktop-menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+    
+}
+nav.desktop-menu li a {
+    color: white;
+    text-decoration: none;
+}
+.chamada1{
+    margin: 190px 10% 0;
+    height: 100px;
+    position: relative;
+    float: right;
+}
+.chamada1 h1{
+    color:white;
+    font-size: 40px;
+    font-weight: 300;
+}
+.chamada1 p{
+    color:white;
+    font-size: 17px;
+    font-weight: 200;
+}
+/*FIM ESTILIZAÇÃO HEADER*/
+
+/*INICIO ESTILIZAÇÃO SESSAO1*/
+section.sessao1{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(91, 14, 163);
+}
+.info{
+    width: 50%;
+    padding:8% 2% 0;
+    color: white;
+    line-height: 30px;
+}
+.mockup{
+    width: 50%;
+    margin:2%;
+}
+.mockup img{
+    width: 100%;
+    height: 100%;
+}
+input[type=button]{
+    background-color: orangered;
+    text-decoration: none;
+    border: 0;
+    padding: 10px;
+    margin-top: 10PX;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+input[type=button]:hover{
+    background-color: rgb(242, 67, 4);
+}
+/*FIM ESTILIZAÇÃO SESSAO1*/
+
+/*INICIO ESTILIZAÇÃO SESSAO2*/
+    .sessao2{
+        padding: 50px 0 ;
+        width: 100%;
+        height: auto;
+    }
+    .sessao2 .center{
+        height: 80%;
+        display: block;
+        text-align: center;
+    }
+    .sessao2 h2{
+        font-size: 30px;
+    }
+    .sessao2 p{
+        width: 50%;
+        display: inline-block;
+    }
+    .sessao2 h2, .sessao2 p{
+        color: rgb(20, 20, 20);
+        
+    }
+    .sessao2 img{
+        position: relative;
+        top:80px;
+        width: 90%;
+        max-width: 700px;
+    }
+/*FIM ESTILIZAÇÃO SESSAO2*/
+
+/*INICIO ESTILIZAÇÃO SESSAO3*/
+    .sessao3{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .left, .right{
+        text-align: center;
+        width: 50%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .position{
+        color: white;
+        margin: 100px auto 0;
+        width: 90%;
+        height: 100%;
+        text-align: center;
+    }
+    .autor{
+        margin: 100px auto 0;
+        width: 90%;
+        text-align: center;
+    }
+    .left{ 
+        background-color: rgb(185, 122, 245);
+    } 
+    .autor-cargo{
+        display: flex;
+    }
+    .nome-cargo{
+        width: 70%;
+    }
+    .autor-cargo-img img{
+        width: 70px;
+        margin-top: -18px;
+    }
+    .description{
+        color: gray;
+        max-width: 500px;
+        margin: 15px auto 0;
+    }
+    .position p{
+        max-width: 500px;
+        margin: 15px auto 0;
+    }
+    .slider-container{
+        height: auto;
+        width: auto;
+    } 
+
+/*FIM ESTILIZAÇÃO SESSAO3*/
+
+/*INICIO ESTILIZAÇÃO SESSAO-DIFERENCIAIS*/
+.diferenciais .center{
+    padding-top: 20px;
+    text-align: center;
+    display: block;
+    color:#30025c ;
+}
+.box-diferenciais-container{
+    padding: 30px 0;
+    display: flex;
+}
+.box-diferenciais-container {
+    text-align: center;
+}
+.box-diferenciais-single{
+width: 33%;
+padding: 10px;
+
+}
+.box-diferenciais-single i{
+font-size: 45px;
+margin-bottom: 10px;
+}
+/*FIM ESTILIZAÇÃO SESSAO-DIFERENCIAIS*/
+
+/*INICIO ESTILIZAÇÃO SESSAO4*/
+    .sessao4{
+        background-color: rgb(48, 2, 92);
+        height: 400px;
+    }
+    .s4-left, .s4-right{
+        text-align: center;
+        padding: 30px 0;
+        width: 50%;
+        height: 100%;
+}
+    form{
+        padding: 0 2%;
+        color: white;
+        font-style: italic;
+        font-weight: 100;
+        width: 90%;
+    }
+    .h2-p{
+        margin-left: 11%;
+    }
+    .label{
+        float: left;
+        margin-left: 11%;
+    }
+    .s4-left p{
+     margin-bottom: 15px;
+        
+    }
+   .s4-left p, .s4-left h2{
+    color: white;
+    font-style: italic;
+    font-weight: 100;
+    text-align: left;
+   }
+    form p, .input{
+        font-size: 13px;
+        margin-bottom: 10px;   
+    }
+    .s4-left input{
+        width: 80%;
+    }
+    .duvida{
+        height: 50px;
+        resize: vertical;
+        max-height: 80px;
+        width: 80%;
+    }
+    form .btn-enviar{
+        width: 120px;
+        height: 30px;
+        color: rgb(76, 9, 138);
+        background-color: rgb(185, 122, 245);
+        cursor: pointer;
+        font-weight: bold;
+    }
+    form .btn-enviar:hover{
+        color: rgb(63, 7, 116);
+        background-color: rgb(187, 138, 234);
+    }
+    .input{
+        height: 30px;
+        border-radius: 5px;
+        outline: 0;
+        border: 0;
+        padding: 5px;
+    }
+
+    .map-container{
+        width: 80%;
+        height: 290px;
+        margin: 0 auto;
+    }
+    .s4-right h2{
+        color: white;
+        font-style: italic;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
+    #map{width: 100%;
+        height: 100%;
+        background-color: white;
+        border: 5px solid rgb(184, 184, 184);
+
+    }
+
+/*FIM ESTILIZAÇÃO SESSAO4*/
+
+/*INICIO ESTILIZAÇÃO FOOTER*/
+    footer{
+        width: 100%;
+        background-color: rgb(46, 46, 46);
+        height: auto;
+    }
+    footer h4{
+        color: white;
+        font-style: italic;
+        font-weight: 100;
+    }
+    .direitos, .autor-footer{
+        width: 50%;
+        padding: 3% 0;
+        text-align: center;
+    }
+    .autor-footer a{
+        text-decoration: none;
+        color: rgb(23, 23, 23);
+    }
+    .autor-footer a:hover{
+        color: rgb(30, 30, 30);
+    }
+
+/*FIM ESTILIZAÇÃO FOOTER*/
+
+/*INICIO ESTILIZAÇÃO DO RESPONSIVO*/
+@media screen and (max-width:768px) {
+    header{
+        width: 100%;
+        height: 90%;
+        max-height: 500px;
+    }
+    .chamada1{
+        text-align: center;
+        margin: 15% auto;
+        width: 90%;
+        position: relative;
+        float: none;
+        font-size: 2px;
+    }
+    section.sessao1{
+        height: auto;
+    }
+    .sessao1 .center{
+        display: block;
+    }
+    .mockup{
+        margin-bottom: 0;
+    }
+    .mockup img{
+        width: 500px;
+        max-width: 100%;
+    }
+    .info, .mockup{
+        width: 95%;
+        text-align: center;
+    }
+    .info ul{
+        margin-top: 25px;
+        list-style-type:none;
+    }
+    input[type=button]{
+        width: 200px;
+        max-width: 100%;
+        height: 50px;
+    }
+    .desktop-menu{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .mobile-menu i{
+        font-size: 32px;
+        color: white;
+        cursor: pointer;
+    }
+    nav.mobile-menu{
+        width: 100%;
+        text-align: right;
+    }
+    nav.mobile-menu ul li{
+        margin-top: 10px;
+        margin-left: 10px;
+        list-style-type:none; 
+        
+    }
+    .mobile-menu ul {
+        background-color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 10px;
+        width: 90%;
+        display:none;
+        position: absolute;
+        left:5%;
+        z-index: 1;
+    }/*
+    nav.mobile-menu i:hover ul{
+       display: block;
+    }*/
+    nav.mobile-menu li a {
+        color: black;
+        text-decoration: none;
+    }
+    .sessao2 p{
+        width: 90%;
+    }
+    .sessao2 img{
+        position: static;
+        top:0px;
+        margin-top: 30px;
+    }
+    .sessao3{
+        display: block;
+    }
+    .left, .right{
+        width: 100%;
+        height: 350px;
+        padding: 80px 40px;
+    }
+    .position{
+        margin: 45px auto ;
+        text-align: center;
+        width: 90%;
+        height: 100%;
+        transform: none;
+    }
+    .autor{
+        margin: 55px auto 0;
+    }
+    .box-diferenciais-container{
+        display: block;
+    }
+    .diferenciais .center{
+        padding-top: 0px;
+    }
+    .box-diferenciais-single{
+        width: 80%;
+        padding: 10px;
+        margin: 0 auto;
+        text-align: center;
+        }
+    .sessao4 .center{
+        display: block;
+    }
+    form{
+        margin: 0 auto;
+    }
+    .label, form p, form h2{
+        float: left;
+    }
+    .sessao4{
+        overflow: hidden;
+        height: auto;
+    }
+    form .btn-enviar{
+        display: block;
+        margin: 0 auto ;
+    }
+    .s4-left, .s4-right{
+        width: 100%;
+        height: auto;
+        padding: 40px 0;
+    }
+    .h2-p{
+        padding-left: 5.5%;
+    }
+    .map-container{
+        width: 75%;
+    }
+    footer .center{
+        display: block;
+    }
+    .direitos, .autor-footer{
+        width: 100%;
+        text-align: center;
+        height: auto;
+        margin-top: 0;
+        padding: 3% 0;
+    }
+    
+}
+
+/*FIM ESTILIZAÇÃO DO RESPONSIVO*/
